@@ -34,10 +34,7 @@ summary {
   display: block;
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
+
 
 audio,
 canvas,
@@ -47,10 +44,7 @@ video {
   vertical-align: baseline; 
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+
 
 audio:not([controls]) {
   display: none;
@@ -99,10 +93,7 @@ dfn {
   font-style: italic;
 }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
+
 
 h1 {
   font-size: 2em;
@@ -146,9 +137,7 @@ img {
   border: 0;
 }
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
+
 
 svg:not(:root) {
   overflow: hidden;
@@ -202,9 +191,6 @@ textarea {
   margin: 0; 
 }
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
 
 button {
   overflow: visible;
@@ -270,8 +256,8 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  box-sizing: content-box; /* 2 */
+  -webkit-appearance: textfield; 
+  box-sizing: content-box; 
 }
 
 
@@ -291,19 +277,14 @@ fieldset {
   padding: 0.35em 0.625em 0.75em;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
+
 
 legend {
   border: 0; 
   padding: 0; 
 }
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
+
 
 textarea {
   overflow: auto;
